@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+}
+
+/* ***** SUBMIT PAGE ***** */
+.btn-color{
+  background: #3c0180;
+  color: #fff;
+  margin-left: 83px;
+}
+
+.title{
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+label{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+/* ***** APP PAGE ***** */
+.location,
+.temperature{
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.temperature{
+  flex-direction: column;
+}
+
+.degree-section{
+  align-items: center;
+}
+
+.degree-section span{
+  margin: 10px;
+  padding-bottom: 8px;
+  font-size: 30px;
+}
+
+.degree-section h2{
+  font-size: 40px;
+}
+
+.icon{
+  width: 150px;
+  height: 150px;
+}
+
+.btn-return{
+  color: #fff;
+  background: #3c0180;
+  align-items: center;
+  margin-top: 20px;
+}
